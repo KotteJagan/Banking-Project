@@ -1,1 +1,2 @@
 # Banking-Project
+Developed a full-featured banking application using Java, JDBC, JSP, and Tomcat server. The project includes user registration, secure login, and various functionalities such as account creation, withdrawal, deposit, money transfer, and transaction history retrieval. Integrated responsive design using HTML, CSS, and JavaScript. Additionally, provided comprehensive bank information and services. Focused on ensuring data integrity and a user-friendly interface.
