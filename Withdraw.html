@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header Styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #003366;
+    color: white;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+    padding:10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #004080;
+}
+
+/* Main Section Styling */
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    padding: 20px 20px 20px 350px;
+    background-image: url('bank.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center; 
+    min-height: 100vh;
+}
+
+/* Form Styling */
+form {
+    background: rgba(255, 255, 255, 0.0);
+    border-radius: 8px;
+    height: 80vh;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 350px;
+    text-align: left;
+}
+
+form h1 {
+    color: black;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: black;
+    text-align: left;
+}
+
+        input[type="text"],
+        input[type="number"],
+        input[type="email"],
+        input[type="password"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+form input[type="submit"] {
+    background-color: #4CAF50;
+    width: calc(100% - 22px);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #003366;
+    color: white;
+}
+.home {
+       padding: 20px;
+       }
+
+    </style>
+      
+</head>
+<body>
+      
+</head>
+<body>
+   <header>
+        <div class="logo">
+            <img src="logo.png" alt="Bank of Bengaluru Logo">
+        </div>
+        <h1>Bank of Bengaluru</h1>
+        <nav>
+            <ul>
+            <li><a href="mainpage.html" class="home">Home</a></li>
+                <li><a href="create.html">Create Account</a></li>
+                <li><a href="Deposit.html">Deposit Money</a></li>
+                <li><a href="Withdraw.html">Withdraw Money</a></li>
+                <li><a href="Transfer.html">Transfer Money</a></li>
+                <li><a href="Transaction.html">Transaction Details</a></li>
+                <li><a href="About.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div>
+     <div class="main">
+        
+        <form action="Withdraw">
+
+            <h1>Withdraw Money</h1>
+            <br>
+            <label><b>Account Number</b></label>
+            <input type="text"  name="an">
+            <br>
+            <label><b>Amount</b></label>
+            <input type="number" name="am">
+            <br>
+            <label><b>MPIN</b></label>
+            <input type="password"  name="mp">
+            <br>
+            <input type ="submit" value="submit">
+            
+        </form>
+    </div>
+    </div>
+    <!-- Footer -->
+   <footer>
+        <p>&copy; 2024 Bank of Bengaluru. All rights reserved.</p>
+    </footer>
+
+    
+</body>
+</html>
